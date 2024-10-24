@@ -75,6 +75,7 @@ To start the bot, run:
 ```bash
 npm start
 ```
+Then take Ctrl + A then D to leave the Screen
 
 #### Options
 
