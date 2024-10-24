@@ -24,7 +24,7 @@ Follow these steps to set up and run the bot.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/dante4rt/rivalz-ai-bot.git
+   git clone https://github.com/cjmahdi2/Rivalz-ai-bot.git
    cd rivalz-ai-bot
    ```
 
