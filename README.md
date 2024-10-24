@@ -25,7 +25,7 @@ Follow these steps to set up and run the bot.
 
    ```bash
    git clone https://github.com/cjmahdi2/Rivalz-ai-bot.git
-   cd rivalz-ai-bot
+   cd Rivalz-ai-bot
    ```
 
 2. Install dependencies:
