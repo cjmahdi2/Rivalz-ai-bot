@@ -54,7 +54,7 @@ You need to provide your Ethereum private keys or mnemonics in either ```nano pr
     "private_key_2"
   ]
   ```
-
+After completing the privateKeys.json file, press Ctrl + x and then Ctrl + y and then Enter to save.
 - For mnemonics (array of strings):
 
   ```json
@@ -63,7 +63,7 @@ You need to provide your Ethereum private keys or mnemonics in either ```nano pr
     "chicken dog cat ball"
   ]
   ```
-
+After completing the privateKeys.json file, press Ctrl + x and then Ctrl + y and then Enter to save.
 ### Usage
 Creating a Screen:
 ```
