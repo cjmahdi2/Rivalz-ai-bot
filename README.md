@@ -14,11 +14,19 @@ This repository contains a bot for interacting with the Rivalz Fragmentz claimer
 
 Follow these steps to set up and run the bot.
 
-### Prerequisites
+Log in to the site And Get faucet for them here:
+https://rivalz2.hub.caldera.xyz/
 
-- Node.js (version 16 or higher)
-- npm
-
+### Install Node.js And npm:
+```
+sudo apt update && apt upgrade -y
+sudo apt remove nodejs
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+source ~/.bashrc
+nvm install 22.9.0
+nvm use 22.9.0
+nvm alias default 22.9.0
+```
 ### Installation
 
 1. Clone the repository:
@@ -36,7 +44,7 @@ Follow these steps to set up and run the bot.
 
 ### Setting Up Wallets
 
-You need to provide your Ethereum private keys or mnemonics in either `privateKeys.json` or `accounts.json` in the following formats:
+You need to provide your Ethereum private keys or mnemonics in either ```nano privateKeys.json``` or ```nano accounts.json``` in the following formats:
 
 - For private keys (array of strings):
 
@@ -57,6 +65,8 @@ You need to provide your Ethereum private keys or mnemonics in either `privateKe
   ```
 
 ### Usage
+Creating a Screen:
+```screen -S Rivalz-ai-bot```
 
 To start the bot, run:
 
