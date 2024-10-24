@@ -66,7 +66,9 @@ You need to provide your Ethereum private keys or mnemonics in either ```nano pr
 
 ### Usage
 Creating a Screen:
-```screen -S Rivalz-ai-bot```
+```
+screen -S Rivalz-ai-bot
+```
 
 To start the bot, run:
 
