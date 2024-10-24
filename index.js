@@ -8,7 +8,7 @@ const { RPC_URL } = require('./src/utils');
 const { JsonRpcProvider, ethers } = require('ethers');
 const moment = require('moment');
 const { CronJob } = require('cron');
-const CONTRACT_ADDRESS = '0xeBBa6Ffff611b7530b57Ed07569E9695B98e6c82';
+const CONTRACT_ADDRESS = '0xF0a66d18b46D4D5dd9947914ab3B2DDbdC19C2C0';
 
 async function claimProcess(seedPhrasesOrKeys, method, provider, numClaims) {
   for (const keyOrPhrase of seedPhrasesOrKeys) {
